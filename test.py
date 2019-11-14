@@ -1,6 +1,4 @@
-# 调用电脑摄像头进行实时人脸+眼睛识别，可直接复制粘贴运行
-# bilibili视频教程:同济子豪兄
-# 2019-5-16
+# coding=utf-8
 import cv2
 
 face_cascade = cv2.CascadeClassifier(cv2.data.haarcascades + 'haarcascade_frontalface_default.xml')
